@@ -1,3 +1,7 @@
+# this is still very slow
+# idea: make a recursive version that splits intervall
+# and treats the halves as needed
+
 rules_raw, parts = open('input_19.txt').read().split('\n\n')
 
 rules = {}
